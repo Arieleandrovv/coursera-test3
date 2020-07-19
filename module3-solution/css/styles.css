@@ -1,0 +1,36 @@
+#nav-style{
+	background-color: grey;
+	border-radius: 0;
+	border:0;
+
+ }
+
+a{color:black;}
+a:hover{
+	color: green;
+    text-decoration: none;
+}
+
+li {	
+	text-align:center;
+	background-color: red;
+	border-left: solid black 1px;
+	border-bottom: solid black 1px;
+	border-right: solid black 1px;
+}
+.border{border-top: solid black 1px;}
+.navbar-nav {margin: 0;}
+.navbar-collapse{ padding: 0; }
+.navbar-default .navbar-nav li a {color: black; }
+.container-backgorund {
+	background-color: grey;
+	color:black;
+	}
+
+@media (max-width: 767px) {
+	.row{margin-left: 5%;
+		margin-right: 5%;}
+}
+.navbar-default .navbar-nav li a:hover{color: blue; background-color: white;}
+    
+
